@@ -1,0 +1,44 @@
+// ceci est un commentaire, il n'apparaitra pas dans le résultat!
+
+ graph {
+node [fontname="Montserrat-Regular"];
+node [shape="box3d"];
+noderb [style=filled, fillcolor="#fff000", shape="box3d", label="Raphaël Bastide"]
+
+nodees [style=filled, fillcolor="#fff000", shape="box3d", label="Eric Schrijver\nOSP"]
+
+nodeaf [style=filled, fillcolor="#fff000", shape="box3d", label="Arsène Filliatreau"]
+
+nodelm [style=filled, fillcolor="#fff000", shape="box3d", label="Lionel Maes\nLVH"]
+
+nodeee [style=filled, fillcolor="#fff000", shape="box3d", label="Erwan Evin\nDE LA CHARGE"]
+
+nodeK [style=filled, fillcolor="#fff000", shape="box3d", label="KNITIC\nVarvara Guljajeva & Mar Canet"]
+
+nodesn [style=filled, fillcolor="#fff000", shape="box3d", label="Stéphane Noël"]
+
+nodemw [style=filled, fillcolor="#fff000", shape="box3d", label="Marc Wathieu"]
+
+nodeya [style=filled, fillcolor="#fff000", shape="box3d", label="Yannick Antoine\nFABLAB.iMAL"]
+
+nodefb [style=filled, fillcolor="#fff000", shape="box3d", label="FBSP\nSimon Ruaut & Loraine Furter"]
+
+
+
+
+// on pourra ajouter un lien de OSP et KNITIC à Variable car les deux projets sont à Variable, et ce genre de liens
+
+
+{rank=source; "OPEN COURSE - OPEN SOURCE";}
+
+nodeaf--nodefb
+
+
+
+
+
+}
+
+
+
+

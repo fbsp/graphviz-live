@@ -1,0 +1,32 @@
+graph {
+node [fontname="Montserrat-Regular"];
+node [shape="box3d"];
+
+nodepates [style=filled, fillcolor="red", shape="box3d"
+label="500g\ntagliatelles"]
+nodeoignons [style=filled, fillcolor="red", shape="box3d"
+label="2 oignons"]
+nodepoulet [style=filled, fillcolor="red", shape="box3d"
+label="400g\npoulet"]
+nodeestragon [style=filled, fillcolor="red", shape="box3d"
+label="1 bouquet\nestragon"]
+nodecrème [style=filled, fillcolor="red", shape="box3d"
+label="crème"]
+nodemoutarde [style=filled, fillcolor="red", shape="box3d"
+label="moutarde"]
+
+
+{rank=source; nodepates; nodeoignons; nodepoulet; nodeestragon; nodecrème; nodemoutarde}
+
+"F B S P"--"recette\ndes tagliatelles\nau poulet\net estragon"--"Performée par\lArsène Filliatreau\lSimon Ruaut\let Loraine Furter\l"
+
+chauffer--eau--casserole--"gros sel"--bouillante--tagliatelles 
+chauffer--huile
+huile--oignons--poêle--moutarde--crème--ajouter
+poulet--morceaux--poêle
+
+estragon--lavé--feuilles--ajouter--sel--manger
+
+tagliatelles--manger
+
+}

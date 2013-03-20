@@ -1,0 +1,56 @@
+LIEN ETHERPAD
+http://beta.etherpad.org/p/fbsp2013
+
+
+
+MODE D'EMPLOI
+
+Créer un document etherpad sur http://beta.etherpad.org
+genre: http://beta.etherpad.org/p/EXEMPLE
+
+Créer un dossier sur l'ordi
+"exdossier"
+
+Dans texte edit écrire:
+#!/bin/bash
+while true
+do
+    curl http://beta.etherpad.org/p/EXEMPLE/export/txt > NOMDUFICHIER.dot
+    dot -Tpng NOMDUFICHIER.dot -O
+    sleep 5
+done
+
+(remplacer NOMDUFICHIER par le nom de votre choix)
+
+
+Enregistrer (avec .sh à la fin) dans le dossier "exdossier"
+ex: SCRIPT.sh
+
+Glisser le dossier depuis le finder dans le terminal, puis faire enter
+
+taper "chmod +x " et là glisser le script
+"SCRIPT.sh" 
+
+
+
+
+POUR LANCER LE PROGRAMME AUTOMATIQUE
+Glisser le fichier du programme (ex: live.sh) depuis le finder dans le terminal, puis faire enter - tadammm
+
+Pour arrêter le programme:
+Ctrl+c
+
+
+
+DANS LE FICHIER TEXTE
+
+
+Retour a la ligne: 
+\n
+
+Retour à la ligne justifié à gauche:
+\l
+
+
+Ajouter un commentaire, invisible dans le résultat:
+// puis le commentaire
